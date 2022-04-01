@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Jim+Nightshade&family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #b92b27, #1565c0);
+}
+.container {
+  background-color: rgba(175, 166, 166, 0.726);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Jim Nightshade", cursive;
+}
+#blue {
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#pink {
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+#white {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+p {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+  font-family: "Ramaraja", serif;
+}
+a {
+  color: rgb(11, 11, 75);
+}

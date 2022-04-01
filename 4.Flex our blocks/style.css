@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  background-color: gray;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+#green {
+  background-color: green;
+  height: 100px;
+  margin: 0 auto;
+}
+.blure {
+  display: flex;
+}
+
+#blue {
+  background-color: blue;
+  width: 10%;
+  height: 220px;
+  margin-top: 20px;
+  vertical-align: top;
+}
+#red {
+  background-color: red;
+  width: 80%;
+  /* height: 300px; */
+  margin-top: 20px;
+  margin-left: 15px;
+  /* overflow: hidden; */
+}
+.chagol {
+  display: flex;
+}
+.yellow {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  margin: 10px 0 0 10px;
+  display: flex;
+}
+.purple {
+  background-color: purple;
+  height: 100px;
+  width: 630px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
