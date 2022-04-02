@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h1 {
+  font-family: "Rubik Glitch", cursive;
+  color: white;
+  text-align: center;
 }
 body {
   background-color: rgb(197, 70, 70);
@@ -9,12 +16,13 @@ body {
 
 .container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
 }
 .bd {
   background-color: rgba(29, 98, 54, 0.831);
