@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(197, 70, 70);
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bd {
+  background-color: rgba(29, 98, 54, 0.831);
+  height: 200px;
+  width: 300px;
+  display: flex;
+  position: relative;
+}
+.redcircle {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+
+  border-radius: 100px;
+  position: absolute;
+  margin: 50px 70px;
+}
+.belgium {
+  display: flex;
+}
+.black {
+  background-color: black;
+  height: 200px;
+  width: 100px;
+  border-radius: 5px;
+}
+.yellow {
+  background-color: yellow;
+  height: 200px;
+  width: 100px;
+  border-radius: 5px;
+}
+.red {
+  background-color: red;
+  height: 200px;
+  width: 100px;
+  border-radius: 5px;
+}
+.argentina {
+  display: flex;
+  flex-direction: column;
+}
+.blue {
+  background-color: skyblue;
+  height: 66.66px;
+  width: 300px;
+}
+.white {
+  background-color: whitesmoke;
+  height: 66.66px;
+  width: 300px;
+}
+.blue1 {
+  background-color: skyblue;
+  height: 66.66px;
+  width: 300px;
+}
+img {
+  height: 65px;
+  width: 65px;
+  /* justify-items: center; */
+  margin-left: 40%;
+  align-items: center;
+}

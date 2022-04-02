@@ -9,11 +9,12 @@ nav {
   background-color: rgba(42, 107, 102, 0.904);
   display: flex;
   justify-content: space-between;
-  height: 60px;
-  padding: 15px;
+  /* height: 60px; */
+  padding: 20px;
   font-family: "Open Sans", sans-serif;
   color: white;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .info ul {
@@ -25,15 +26,26 @@ nav {
 .info {
   display: flex;
   gap: 25px;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 1em;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
-/* .info ul li :hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-} */
+.info ul :hover {
+  color: black;
+  cursor: pointer;
+  /* transform: scale(1.1); */
+  transition: all 0.2s ease-in-out;
+  background-color: aqua;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+}
 button {
   background-color: rgb(34, 163, 214);
   border: 2px solid black;
-  padding: 1px 3px 1px 3px;
-  box-shadow: 2px 2px 0 0;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 3px 3px 3px black;
+  color: white;
+  cursor: pointer;
 }

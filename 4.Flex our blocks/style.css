@@ -10,6 +10,7 @@
   margin: 0 auto;
   margin-top: 20px;
   padding: 20px;
+  /* flex-wrap: wrap; */
 }
 #green {
   background-color: green;
@@ -37,6 +38,7 @@
 }
 .chagol {
   display: flex;
+  flex-wrap: wrap;
 }
 .yellow {
   background-color: yellow;
@@ -44,6 +46,7 @@
   width: 200px;
   margin: 10px 0 0 10px;
   display: flex;
+  /* flex-wrap: wrap; */
 }
 .purple {
   background-color: purple;
